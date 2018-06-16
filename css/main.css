@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:url(../img/bk.jpg) no-repeat;
+	background-size:cover;
+	min-width: 600px;
+}
+
+#welcomePage{
+	text-align: center;
+}
+
+.logo{
+	margin-top: 50px;
+	width:500px;
+}
+
+.starGame img{
+	margin-top:50px;
+	height:150px;
+	width:250px;
+}
+
+#starPage{
+	display:none;
+}
+
+.left img{
+	width:120px;
+	position:fixed;
+	left:5px;
+	bottom:5px;
+}
+
+.puse{
+	width:120px;
+	position:fixed;
+	right:5px;
+	bottom:115px;
+}
+
+.setting{
+	width:120px;
+	position:fixed;
+	right:5px;
+	bottom:5px;
+}
+
+#numDiv{
+	width:30px;
+	height:30px;
+	color:red;
+	font-size: 25px;
+	font-weight: bold;
+	position:absolute;
+	right:10px;
+	top:5px;
+}
+
+.ghost{
+	color:blue;
+	font-size: 20px;
+	width:60px;
+	height:60px;
+	position:absolute;
+	padding-top:60px;
+	padding-left:65px;
+	padding-bottom: 20px;
+	background:url(../img/5.png) no-repeat;
+	bottom:0;
+}
+
+.bgArea{
+	width:100%;
+	height:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	display: none;
+	opacity: 0.8;
+	background:black;
+	z-index: 1;
+}
+
+.puseButtom{
+	z-index: 9;
+	position: absolute;
+	display: none;
+}
+
+#settingArea{
+	display: none;
+	width:536px;
+	height:626px;
+	background:url(../img/optionPanelBg.png) round;
+	position: absolute;
+	z-index: 9;
+}
+
+/*设置页的公共属性*/
+.public{
+	position:absolute;
+}
+
+/*设置页的关闭*/
+#close{
+	width:80px;
+	left:430px;
+	top:140px;
+}
+/*设置time标签*/
+.gameTime{
+	width:120px;
+	left:90px;
+	top:220px;
+}
+/*time显示图片*/
+#areaT{
+	color:blueviolet;
+	font-size:30px;
+	text-align: center;
+	line-height: 50px;
+	width:200px;
+	height:50px;
+	left:220px;
+	top:230px;
+	background: url(../img/35.png) round;
+}
+
+.leve{
+	width:120px;
+	left:90px;
+	top:330px;
+}
+
+#left{
+	width:50px;
+	left:220px;
+	top:330px;
+}
+
+#areaL{
+	width:50px;
+	left:300px;
+	top:330px;
+}
+
+#right{
+	width:50px;
+	left:380px;
+	top:330px;
+}
+
+#install{
+	width:120px;
+	left:120px;
+	top:420px;
+}
+#cansel{
+	width:120px;
+	left:290px;
+	top:420px;
+}
+

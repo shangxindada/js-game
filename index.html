@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>打字游戏</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="welcomePage">
+			<img class="logo" src="img/logo.png"/>
+			<div class="starGame">
+				<img id="aboutUs" src="img/3.png" onmousedown="down(this.id)" onmouseup="up(this.id)"/>
+				<img id="starGm" src="img/1.png" onmousedown="down(this.id)" onmouseup="up(this.id)" onclick="starGame()"/>
+			</div>
+		</div>
+		<div id="starPage">
+			<div ><img id="second"src="img/daojishi-3.png"/></div>
+			<div class="left"><img id="back" src="img/6.png" alt="" onclick="back()"/></div>
+			<div class="right">
+				<img class="puse" src="img/10.png" onclick="stop()"/>
+				<img class="setting" onclick="setting()" src="img/8.png"/>
+			</div>
+			<div id="numDiv">0</div>
+		</div>	
+		<div class="bgArea" id="puseBg"></div>
+		<img id="puseButtom" src="img/36.png" class="puseButtom" onclick="continueGame()"/>
+		<div id="settingArea">
+			<img id="close" class="public close_img" src="img/12.png" onclick="closeSetting()"/>
+			<img class="gameTime public" src="img/34.png"/>
+			<div id="areaT" class="public" >0</div>
+			<img class="leve public" src="img/33.png"/>
+			<img id="left" class="public" src="img/14.png" onclick="leveDown()"/>
+			<img id="areaL" class="public" src="img/daojishi-1.png"/>
+			<img id="right" class="public" src="img/16.png" onclick="leveUp()"/>
+			<img id="install" class="public" src="img/41.png" onclick="setNow()"/>
+			<img id="cansel" class="public" src="img/42.png" onclick="closeSetting()"/>
+		</div>
+	</body>
+</html>
